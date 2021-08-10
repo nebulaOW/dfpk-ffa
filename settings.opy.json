@@ -1,0 +1,35 @@
+{
+    "main": {
+        "description": "Doomfist Parkour FFA"
+    },
+    "gamemodes": {
+        "ffa": {
+            "gameLengthInMn": 15,
+            "gamemodeStartTrigger": "immediately",
+            "heroLimit": "off",
+            "enableKillCam": false,
+            "enableRandomHeroes": false,
+            "enableSelfInitiatedRespawn": false,
+            "spawnHealthPacks": "disabled",
+            "enabledMaps": ["eichenwaldeHalloween"]
+        },
+        "general": {
+            "heroesAvailable": "limited"
+        }
+    },
+    "heroes": {
+        "allTeams": {
+            "doomfist": {
+                "damageDealt%": 10,
+                "damageReceived%": 10,
+                "health%": 500,
+                "enableUlt": false,
+                "ability1Cooldown%": 50,
+                "ability2Cooldown%": 50,
+                "secondaryFireCooldown%": 50
+            },
+            "enabledHeroes": ["doomfist"]
+        }
+    },
+
+}
